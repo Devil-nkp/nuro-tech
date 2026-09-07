@@ -1,0 +1,487 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Nuro Tech — live 1:1 technology career learning with personalized skill tracking, verified projects, and career readiness." />
+  <meta name="theme-color" content="#07111f" />
+  <title>Nuro Tech — Personally taught. Measurably skilled. Career ready.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&family=Roboto+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="announcement">
+    <span>Founding learner experience • Live 1:1 • English • தமிழ் • తెలుగు</span>
+    <a href="#diagnostic">Explore your starting path →</a>
+  </div>
+
+  <header class="nav-shell" id="top">
+    <nav class="nav container">
+      <a class="brand" href="#top" aria-label="Nuro Tech home">
+        <span class="brand-mark">N</span>
+        <span class="brand-copy"><strong>NURO</strong><small>TECH</small></span>
+      </a>
+      <div class="nav-links" id="navLinks">
+        <a href="#programs">Programs</a>
+        <a href="#how">How Nuro Works</a>
+        <a href="#projects">Projects</a>
+        <a href="#passport">Skill Passport</a>
+        <a href="#career">Career OS</a>
+        <a href="#colleges">For Colleges</a>
+      </div>
+      <div class="nav-actions">
+        <a class="text-link hide-mobile" href="#">Sign in</a>
+        <a class="btn btn-primary btn-small" href="#diagnostic">Get My Skill Map</a>
+        <button class="menu-btn" id="menuBtn" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-glow hero-glow-a"></div>
+      <div class="hero-glow hero-glow-b"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span class="live-dot"></span> 100% LIVE 1:1 TECHNOLOGY CAREER LEARNING</div>
+          <h1>Your career shouldn't be taught in a batch. <span>Build it personally.</span></h1>
+          <p class="hero-lead">Learn directly with a dedicated instructor, follow a personalized Skill Graph, build verified projects, and prepare systematically for the career you want.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary btn-large" href="#diagnostic">Get My Skill Map <span>→</span></a>
+            <a class="btn btn-ghost btn-large" href="#how">Explore How Nuro Works</a>
+          </div>
+          <div class="trust-inline">
+            <span>Live 1:1 core teaching</span><span>Personalized progress</span><span>Verified projects</span>
+          </div>
+          <div class="language-line">English <span>•</span> தமிழ் <span>•</span> తెలుగు</div>
+        </div>
+
+        <div class="mentor-stage reveal delay-1" aria-label="Interactive Nuro Mentor Room preview">
+          <div class="floating-chip chip-one">Skill Graph updated</div>
+          <div class="floating-chip chip-two">Evidence +1</div>
+          <div class="app-window">
+            <div class="app-topbar">
+              <div class="window-dots"><i></i><i></i><i></i></div>
+              <div class="session-label"><span class="live-dot"></span> LIVE SESSION • PYTHON FOUNDATIONS</div>
+              <div class="session-time">42:18</div>
+            </div>
+            <div class="mentor-grid">
+              <div class="workspace-panel">
+                <div class="video-row">
+                  <div class="video-card">
+                    <div class="avatar avatar-student">AR</div>
+                    <span>Arun • Learner</span>
+                  </div>
+                  <div class="video-card">
+                    <div class="avatar avatar-mentor">SK</div>
+                    <span>Shalini • Mentor</span>
+                  </div>
+                </div>
+                <div class="editor-shell">
+                  <div class="editor-tabs"><span class="active">average.py</span><span>notes.md</span></div>
+                  <pre class="editor-code"><code><span class="ln">1</span><span class="kw">def</span> <span class="fn">calculate_average</span>(values):
+<span class="ln">2</span>    <span class="kw">return</span> <span class="fn">sum</span>(values) / <span class="fn">len</span>(values)
+<span class="ln">3</span>
+<span class="ln">4</span>scores = [<span class="num">84</span>, <span class="num">92</span>, <span class="num">78</span>]
+<span class="ln">5</span><span class="fn">print</span>(calculate_average(scores))</code></pre>
+                  <div class="mentor-comment">Why could this fail when <code>values</code> is empty?</div>
+                </div>
+                <div class="session-checks">
+                  <span>✓ Concept explained</span><span>✓ 3 problems solved</span><span>→ Practice assigned</span>
+                </div>
+              </div>
+              <aside class="skill-panel">
+                <div class="panel-kicker">LIVE SKILL GRAPH</div>
+                <h3>Python Functions</h3>
+                <div class="level-row"><span>Guided</span><strong id="heroSkillLevel">Level 2</strong></div>
+                <div class="meter"><span id="heroSkillMeter"></span></div>
+                <div class="mini-skill"><span>Error Handling</span><em>Awareness</em></div>
+                <div class="mini-skill"><span>Debugging</span><em>Guided</em></div>
+                <button class="skill-action" id="simulateMastery">Simulate learner success</button>
+                <div class="evidence-pill" id="evidencePill">Evidence: live problem solving</div>
+              </aside>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-cue">SCROLL TO EXPLORE <span>↓</span></div>
+    </section>
+
+    <section class="proof-strip">
+      <div class="marquee-track">
+        <span>LIVE 1:1 CORE TEACHING</span><i>✦</i><span>PERSONAL SKILL GRAPH</span><i>✦</i><span>VERIFIED PROJECTS</span><i>✦</i><span>CAREER READINESS TRACKING</span><i>✦</i><span>PYTHON</span><i>✦</i><span>SQL</span><i>✦</i><span>POWER BI</span><i>✦</i><span>AI AGENTS</span><i>✦</i><span>APTITUDE</span><i>✦</i><span>INTERVIEWS</span>
+      </div>
+    </section>
+
+    <section class="section contrast-section" id="problem">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <div class="eyebrow">THE PROBLEM</div>
+          <h2>Online learning became scalable.<br><span>Learning stopped being personal.</span></h2>
+          <p>Most platforms optimize content delivery. Nuro is designed around the individual learner's capability, evidence, and next best action.</p>
+        </div>
+        <div class="compare-grid reveal delay-1">
+          <article class="compare-card muted">
+            <div class="compare-label">Typical online learning</div>
+            <div class="avatar-cloud" aria-hidden="true"></div>
+            <ol class="flow-list">
+              <li>Large cohort</li><li>Same curriculum</li><li>Same pace</li><li>Video / lecture completion</li><li>Certificate</li>
+            </ol>
+          </article>
+          <article class="compare-card glow-card">
+            <div class="compare-label accent">The Nuro model</div>
+            <div class="one-to-one-visual"><div class="person-ring">YOU</div><div class="link-line"></div><div class="person-ring mentor">MENTOR</div></div>
+            <ol class="flow-list bright">
+              <li>1 learner</li><li>Diagnostic</li><li>Personal roadmap</li><li>Live 1:1 learning</li><li>Verified mastery + career readiness</li>
+            </ol>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="difference">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div class="eyebrow">THE DIFFERENCE</div>
+          <h2>We don't personalize videos.<br><span>We personalize the teaching.</span></h2>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card reveal"><span class="index">01</span><div class="icon-badge">◉</div><h3>Your Mentor</h3><p>A primary instructor understands your history, current gaps, goals and pace—not just today's topic.</p></article>
+          <article class="feature-card reveal delay-1"><span class="index">02</span><div class="icon-badge">⌘</div><h3>Your Skill Graph</h3><p>Important capabilities are tracked individually, with mastery levels and evidence—not hidden behind course completion.</p></article>
+          <article class="feature-card reveal delay-2"><span class="index">03</span><div class="icon-badge">↗</div><h3>Your Learning Path</h3><p>Weak skills receive more practice and remediation. Strong skills can move faster.</p></article>
+          <article class="feature-card reveal"><span class="index">04</span><div class="icon-badge">◇</div><h3>Your Projects</h3><p>Build useful software, dashboards and AI applications that turn learning into visible proof.</p></article>
+          <article class="feature-card reveal delay-1"><span class="index">05</span><div class="icon-badge">✓</div><h3>Your Proof</h3><p>Projects can be demonstrated, questioned and modified live so understanding—not copying—is what gets verified.</p></article>
+          <article class="feature-card reveal delay-2"><span class="index">06</span><div class="icon-badge">◎</div><h3>Your Career OS</h3><p>Resume, GitHub, portfolio, aptitude, technical interviews and application readiness evolve with your technical skills.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section pathway-section" id="how">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <div class="eyebrow">HOW NURO WORKS</div>
+          <h2>One continuous system from <span>confusion to career readiness.</span></h2>
+        </div>
+        <div class="journey-wrap reveal delay-1">
+          <div class="journey-progress"><span id="journeyProgress"></span></div>
+          <div class="journey" id="journeySteps"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section os-section" id="os">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <div class="eyebrow">THE PRODUCT LAYER</div>
+          <h2>Meet <span>Nuro OS.</span></h2>
+          <p>The system connecting your mentor, skills, projects, sessions and career journey.</p>
+        </div>
+        <div class="dashboard-shell reveal delay-1">
+          <div class="dash-sidebar">
+            <div class="dash-logo">N</div>
+            <button class="active">Overview</button><button>Learning</button><button>Skill Graph</button><button>Projects</button><button>Career</button><button>Sessions</button>
+          </div>
+          <div class="dash-content">
+            <div class="dash-top"><div><span class="muted-label">GOOD AFTERNOON</span><h3>Arun.</h3></div><div class="target-chip">Target • Data Analyst</div></div>
+            <div class="dash-cards">
+              <div class="metric-card wide"><span>This week</span><strong>3 / 4</strong><small>learning actions completed</small><div class="spark-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
+              <div class="metric-card"><span>Readiness</span><strong>71</strong><small>+6 this month</small><div class="ring-mini"><span>71</span></div></div>
+              <div class="metric-card"><span>Projects</span><strong>2</strong><small>1 verified</small><div class="tiny-badges"><i>✓</i><i>•</i><i>+</i></div></div>
+            </div>
+            <div class="dash-lower">
+              <div class="skill-trajectory"><div class="card-title"><strong>Skill trajectory</strong><span>Live evidence</span></div>
+                <div class="bar-row"><span>SQL Joins</span><div><i style="width:82%"></i></div><em>82</em></div>
+                <div class="bar-row"><span>Power BI Modeling</span><div><i style="width:67%"></i></div><em>67</em></div>
+                <div class="bar-row"><span>Statistics</span><div><i style="width:53%"></i></div><em>53</em></div>
+                <div class="bar-row"><span>Python / Pandas</span><div><i style="width:74%"></i></div><em>74</em></div>
+              </div>
+              <div class="mentor-insight"><div class="card-title"><strong>Mentor insight</strong><span>Today</span></div><p>“You understand joins conceptually, but accuracy drops on multi-table problems under time pressure. Wednesday's session should focus on timed joins and query explanation.”</p><div class="insight-meta"><span>Next session</span><strong>Wed • 7:30 PM</strong></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skill-graph-section" id="skillgraph">
+      <div class="container split-layout">
+        <div class="sticky-copy reveal">
+          <div class="eyebrow">PERSONAL SKILL GRAPH</div>
+          <h2>Course completion tells you what you finished. <span>Your Skill Graph shows what you can do.</span></h2>
+          <p>Nuro tracks critical capabilities independently and links them to evidence from live sessions, assessments and projects.</p>
+          <div class="level-legend"><span>0 Not assessed</span><span>1 Awareness</span><span>2 Guided</span><span>3 Independent</span><span>4 Applied</span><span>5 Defend / Transfer</span></div>
+        </div>
+        <div class="graph-canvas reveal delay-1" id="graphCanvas">
+          <svg viewBox="0 0 760 720" role="img" aria-label="Interactive skill graph for Data Analyst pathway">
+            <g class="links">
+              <line x1="380" y1="350" x2="170" y2="170"/><line x1="380" y1="350" x2="380" y2="125"/><line x1="380" y1="350" x2="600" y2="170"/>
+              <line x1="380" y1="350" x2="155" y2="505"/><line x1="380" y1="350" x2="390" y2="585"/><line x1="380" y1="350" x2="610" y2="505"/>
+              <line x1="170" y1="170" x2="85" y2="70"/><line x1="170" y1="170" x2="88" y2="260"/>
+              <line x1="600" y1="170" x2="690" y2="80"/><line x1="600" y1="170" x2="685" y2="275"/>
+            </g>
+            <g class="node root" data-title="Data Analyst" data-level="Target role" data-evidence="Personalized pathway"><circle cx="380" cy="350" r="72"/><text x="380" y="345">DATA</text><text x="380" y="369">ANALYST</text></g>
+            <g class="node" data-title="SQL" data-level="Level 4 — Applied" data-evidence="Assessment + project"><circle cx="170" cy="170" r="52"/><text x="170" y="176">SQL</text></g>
+            <g class="node" data-title="Python / Pandas" data-level="Level 3 — Independent" data-evidence="Live coding + project"><circle cx="380" cy="125" r="48"/><text x="380" y="121">PYTHON</text><text x="380" y="141">PANDAS</text></g>
+            <g class="node" data-title="Power BI" data-level="Level 4 — Applied" data-evidence="Dashboard defense"><circle cx="600" cy="170" r="52"/><text x="600" y="164">POWER</text><text x="600" y="184">BI</text></g>
+            <g class="node" data-title="Excel" data-level="Level 4 — Applied" data-evidence="Business case"><circle cx="155" cy="505" r="48"/><text x="155" y="511">EXCEL</text></g>
+            <g class="node" data-title="Statistics" data-level="Level 3 — Independent" data-evidence="Supervised assessment"><circle cx="390" cy="585" r="54"/><text x="390" y="591">STATS</text></g>
+            <g class="node" data-title="Business Communication" data-level="Level 3 — Independent" data-evidence="Case presentation"><circle cx="610" cy="505" r="58"/><text x="610" y="500">BUSINESS</text><text x="610" y="520">STORY</text></g>
+            <g class="node small" data-title="SQL Joins" data-level="Level 5 — Defend" data-evidence="Supervised + project"><circle cx="85" cy="70" r="34"/><text x="85" y="76">JOINS</text></g>
+            <g class="node small" data-title="Window Functions" data-level="Level 4 — Applied" data-evidence="Assessment"><circle cx="88" cy="260" r="34"/><text x="88" y="254">WINDOW</text><text x="88" y="270">FN</text></g>
+            <g class="node small" data-title="DAX" data-level="Level 3 — Independent" data-evidence="Dashboard project"><circle cx="690" cy="80" r="34"/><text x="690" y="86">DAX</text></g>
+            <g class="node small" data-title="Data Modeling" data-level="Level 4 — Applied" data-evidence="Project defense"><circle cx="685" cy="275" r="35"/><text x="685" y="269">DATA</text><text x="685" y="285">MODEL</text></g>
+          </svg>
+          <div class="graph-tooltip" id="graphTooltip"><span>Hover a skill</span><strong>See mastery evidence</strong><small>Each node carries verified learning signals.</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section session-section" id="sessions">
+      <div class="container">
+        <div class="section-heading reveal"><div class="eyebrow">LIVE 1:1 PEDAGOGY</div><h2>Your instructor isn't there to lecture you for 90 minutes.</h2><p>The learner does the cognitive work. The mentor explains, observes, diagnoses, challenges and adapts.</p></div>
+        <div class="session-layout reveal delay-1">
+          <div class="timeline" id="sessionTimeline"></div>
+          <div class="session-visual">
+            <div class="session-focus"><span>CURRENT FOCUS</span><strong id="sessionFocusTitle">Recall + previous assignment</strong><p id="sessionFocusCopy">Recover key concepts, inspect previous errors and set today's learning target.</p></div>
+            <div class="mentor-note"><span>Mentor action</span><p>“I won't solve this yet. Walk me through your first assumption.”</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section mentor-continuity">
+      <div class="container split-layout reverse-mobile">
+        <div class="mentor-profile reveal">
+          <div class="mentor-profile-head"><div class="avatar avatar-xl">SP</div><div><span>YOUR PRIMARY MENTOR</span><h3>Sruthi P.</h3><p>Python • Data Analytics • English / தமிழ்</p></div></div>
+          <div class="mentor-profile-stats"><div><span>Teaching strengths</span><strong>Debugging • SQL • Projects</strong></div><div><span>Current learner focus</span><strong>Query speed + explanation</strong></div></div>
+          <div class="history"><div><i>01</i><p><strong>Week 1</strong> Diagnostic + role map</p></div><div><i>04</i><p><strong>Week 4</strong> Loops weakness detected</p></div><div><i>07</i><p><strong>Week 7</strong> Remediation completed</p></div><div><i>12</i><p><strong>Week 12</strong> First project defense</p></div><div><i>16</i><p><strong>Week 16</strong> Technical mock</p></div></div>
+        </div>
+        <div class="section-heading reveal delay-1"><div class="eyebrow">MENTOR CONTINUITY</div><h2>Someone should actually know your learning history.</h2><p>Your primary mentor carries context across sessions. Specialist mentors can join where useful, while the learner's core history and plan stay connected.</p><div class="quote-card">“The goal is continuity without locking the learner to one person's limitations.”</div></div>
+      </div>
+    </section>
+
+    <section class="section programs-section" id="programs">
+      <div class="container">
+        <div class="section-heading centered reveal"><div class="eyebrow">PROGRAM UNIVERSE</div><h2>Don't choose a random course. <span>Choose the capability you want to build.</span></h2></div>
+        <div class="program-orbit reveal delay-1">
+          <div class="orbit-center"><span>NURO</span><strong>CAREER CORE</strong><small>communication • projects • interview • evidence</small></div>
+          <button class="orbit-card launch" data-program="placement"><span>LAUNCH</span><strong>Placement Accelerator</strong></button>
+          <button class="orbit-card launch" data-program="python"><span>LAUNCH</span><strong>Python & Software Foundations</strong></button>
+          <button class="orbit-card launch" data-program="analytics"><span>LAUNCH</span><strong>Data Analytics & BI</strong></button>
+          <button class="orbit-card launch" data-program="aiml"><span>LAUNCH</span><strong>AI / ML Engineering</strong></button>
+          <button class="orbit-card next" data-program="fullstack"><span>BUILD NEXT</span><strong>Full-Stack AI Engineering</strong></button>
+          <button class="orbit-card future" data-program="future"><span>FUTURE</span><strong>Data • Cloud • DevOps • Security</strong></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section curriculum-section" id="curriculum">
+      <div class="container">
+        <div class="section-heading reveal"><div class="eyebrow">CURRICULUM EXPLORER</div><h2>Deep enough to build capability. <span>Structured enough to stay clear.</span></h2><p>The homepage shows the architecture; each pathway opens into a deeper curriculum when a learner needs detail.</p></div>
+        <div class="curriculum-tabs" id="curriculumTabs"></div>
+        <div class="curriculum-panel reveal" id="curriculumPanel"></div>
+      </div>
+    </section>
+
+    <section class="section role-paths" id="rolepaths">
+      <div class="container">
+        <div class="section-heading centered reveal"><div class="eyebrow">ROLE-BASED PATHWAYS</div><h2>Your curriculum should change with <span>who you are and where you're going.</span></h2></div>
+        <div class="persona-switch reveal"><button class="active" data-persona="student">Student</button><button data-persona="graduate">Graduate</button><button data-persona="switcher">Career Switcher</button><button data-persona="professional">Working Professional</button></div>
+        <div class="role-grid" id="roleGrid"></div>
+      </div>
+    </section>
+
+    <section class="section project-section" id="projects">
+      <div class="container">
+        <div class="section-heading reveal"><div class="eyebrow">PROJECT STUDIO</div><h2>Don't just finish lessons. <span>Ship evidence.</span></h2><p>Every strong pathway should end in portfolio artifacts that can be explained, defended and improved.</p></div>
+        <div class="project-grid">
+          <article class="project-card reveal"><div class="project-preview preview-dashboard"><div class="mini-chart"><i></i><i></i><i></i><i></i><i></i></div></div><div class="project-meta"><span class="verified">VERIFIED</span><h3>E-Commerce Intelligence Dashboard</h3><p>SQL • Power BI • Business Analytics</p></div></article>
+          <article class="project-card reveal delay-1"><div class="project-preview preview-rag"><div class="rag-node">DOCS</div><span>→</span><div class="rag-node">VECTOR</div><span>→</span><div class="rag-node glow">LLM</div></div><div class="project-meta"><span class="verified">DEFENSE PASSED</span><h3>RAG Research Assistant</h3><p>Python • Embeddings • Retrieval • Evaluation</p></div></article>
+          <article class="project-card reveal delay-2"><div class="project-preview preview-api"><code>POST /applications</code><code>GET /status</code><code>PATCH /notes</code></div><div class="project-meta"><span class="verified">PROJECT COMPLETE</span><h3>FastAPI Job Application Tracker</h3><p>Python • SQL • REST API • Testing</p></div></article>
+          <article class="project-card reveal"><div class="project-preview preview-ml"><div class="confusion"><span>TN</span><span>FP</span><span>FN</span><span class="glow">TP</span></div></div><div class="project-meta"><span class="in-review">UNDER REVIEW</span><h3>Customer Churn Analysis</h3><p>Python • Statistics • Machine Learning</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section defense-section">
+      <div class="container defense-grid">
+        <div class="section-heading reveal"><div class="eyebrow">PROJECT DEFENSE</div><h2>AI can generate a project. <span>Can you defend it?</span></h2><p>For major portfolio work, Nuro can test whether the learner can explain decisions, change the implementation and reason about trade-offs live.</p></div>
+        <div class="defense-terminal reveal delay-1">
+          <div class="question">Mentor: “Why did you choose cosine similarity?”</div>
+          <div class="answer">Learner explains semantic embedding comparison and retrieval behavior…</div>
+          <div class="question">Mentor: “Change the retrieval threshold and explain what happens.”</div>
+          <div class="code-change">threshold = <span>0.78</span> <b>→</b> <span class="accent-code">0.66</span></div>
+          <div class="verification-grid"><div><span>Implementation</span><strong>Passed</strong></div><div><span>Explanation</span><strong>Passed</strong></div><div><span>Modification</span><strong>Passed</strong></div><div><span>AI-use declaration</span><strong>Complete</strong></div></div>
+          <div class="verified-seal">✓ PROJECT VERIFIED</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section passport-section" id="passport">
+      <div class="container split-layout">
+        <div class="passport-card reveal">
+          <div class="passport-head"><div><span>NURO SKILL PASSPORT</span><h3>Ananya R.</h3><p>Target • Data Analyst</p></div><div class="passport-qr">▦</div></div>
+          <div class="passport-skills"><div><span>SQL Joins</span><strong>L5</strong></div><div><span>Window Functions</span><strong>L4</strong></div><div><span>Power BI</span><strong>L4</strong></div><div><span>Python / Pandas</span><strong>L4</strong></div><div><span>Statistics</span><strong>L3</strong></div><div><span>Business Storytelling</span><strong>L4</strong></div></div>
+          <div class="passport-evidence"><span>3 verified projects</span><span>2 supervised assessments</span><span>4 mock interviews</span></div>
+        </div>
+        <div class="section-heading reveal delay-1"><div class="eyebrow">SKILL PASSPORT</div><h2>A certificate says you finished. <span>Your Skill Passport shows the evidence.</span></h2><p>Nuro's long-term credential model is designed around skill-level evidence, projects, supervised assessment and learner-owned proof—not a single completion badge.</p><a class="text-cta" href="#diagnostic">Build toward your first Skill Passport →</a></div>
+      </div>
+    </section>
+
+    <section class="section integrity-section">
+      <div class="container">
+        <div class="section-heading centered reveal"><div class="eyebrow">AI INTEGRITY</div><h2>We don't pretend learners won't use AI. <span>We teach them to use it responsibly.</span></h2></div>
+        <div class="integrity-grid"><article class="reveal"><span>01</span><h3>USE</h3><p>Use AI for exploration, debugging, brainstorming and acceleration.</p></article><article class="reveal delay-1"><span>02</span><h3>VERIFY</h3><p>Test generated answers, inspect assumptions, validate data and challenge code.</p></article><article class="reveal delay-2"><span>03</span><h3>PROVE</h3><p>Explain, modify and defend the result so the evidence still represents your capability.</p></article></div>
+      </div>
+    </section>
+
+    <section class="section career-section" id="career">
+      <div class="container">
+        <div class="section-heading centered reveal"><div class="eyebrow">CAREER OS</div><h2>Career preparation shouldn't start <span>after the course ends.</span></h2></div>
+        <div class="career-shell reveal delay-1">
+          <div class="career-nav"><button class="active">Overview</button><button>Assets</button><button>Mocks</button><button>Applications</button></div>
+          <div class="career-main">
+            <div class="career-card target-roles"><span>TARGET ROLES</span><strong>Data Analyst</strong><strong>BI Analyst</strong><strong>Junior Business Analyst</strong></div>
+            <div class="career-card assets"><span>CAREER ASSETS</span><div><b>Resume</b><i style="width:92%"></i><em>92%</em></div><div><b>LinkedIn</b><i style="width:100%"></i><em>Ready</em></div><div><b>GitHub</b><i style="width:74%"></i><em>Improve</em></div><div><b>Portfolio</b><i style="width:88%"></i><em>3 projects</em></div></div>
+            <div class="career-card mocks"><span>INTERVIEW JOURNEY</span><div class="mock-score"><b>SQL Mock</b><strong>81</strong></div><div class="mock-score"><b>Business Case</b><strong>74</strong></div><div class="mock-score"><b>Behavioral</b><strong>86</strong></div><div class="mock-score"><b>Communication</b><strong>78</strong></div></div>
+            <div class="career-card applications"><span>APPLICATION PIPELINE</span><div><i>1</i><p><strong>Opportunity A</strong><small>Technical interview</small></p></div><div><i>2</i><p><strong>Opportunity B</strong><small>Applied</small></p></div><div><i>3</i><p><strong>Opportunity C</strong><small>Assessment</small></p></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section readiness-section">
+      <div class="container readiness-grid">
+        <div class="readiness-score reveal"><div class="readiness-ring"><span>81</span><small>READINESS</small></div><div class="score-bars"><div><span>Technical ability</span><i><b style="width:84%"></b></i><em>84</em></div><div><span>Projects</span><i><b style="width:91%"></b></i><em>91</em></div><div><span>Aptitude</span><i><b style="width:72%"></b></i><em>72</em></div><div><span>Communication</span><i><b style="width:76%"></b></i><em>76</em></div><div><span>Interview</span><i><b style="width:82%"></b></i><em>82</em></div></div></div>
+        <div class="section-heading reveal delay-1"><div class="eyebrow">PLACEMENT READINESS ENGINE</div><h2>Course complete <span>≠ career ready.</span></h2><p>A readiness view combines technical capability, project evidence, aptitude, communication and interview performance to identify what the learner should improve next.</p><div class="mentor-recommendation"><span>MENTOR RECOMMENDATION</span><p>Focus next on timed aptitude and concise project explanation.</p></div></div>
+      </div>
+    </section>
+
+    <section class="section multilingual-section">
+      <div class="container">
+        <div class="section-heading centered reveal"><div class="eyebrow">MULTILINGUAL LEARNING</div><h2>Understand deeply in your strongest language. <span>Become professionally fluent in technical English.</span></h2></div>
+        <div class="language-demo reveal delay-1">
+          <div class="language-tabs"><button class="active" data-lang="tamil">தமிழ்</button><button data-lang="telugu">తెలుగు</button><button data-lang="english">English</button></div>
+          <div class="mentor-dialogue" id="languageDialogue"></div>
+          <div class="language-path"><div><span>01</span><strong>Understand</strong><small>regional-language explanation</small></div><i>→</i><div><span>02</span><strong>Practice</strong><small>bilingual support</small></div><i>→</i><div><span>03</span><strong>Document</strong><small>English-first technical work</small></div><i>→</i><div><span>04</span><strong>Present</strong><small>professional communication</small></div><i>→</i><div><span>05</span><strong>Interview</strong><small>career-ready English</small></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section diagnostic-section" id="diagnostic">
+      <div class="container diagnostic-grid">
+        <div class="section-heading reveal"><div class="eyebrow">PERSONALIZATION DEMO</div><h2>What would Nuro teach <span>you</span> first?</h2><p>Try a simple sample path. The real diagnostic would go deeper across knowledge, goals, evidence, schedule and learning preferences.</p><div class="disclaimer">Prototype interaction • not an admission or placement assessment</div></div>
+        <div class="diagnostic-card reveal delay-1">
+          <div class="field"><label for="goal">Career goal</label><select id="goal"><option>Data Analyst</option><option>Python Developer</option><option>AI / ML Engineer</option><option>Placement Preparation</option></select></div>
+          <div class="field"><label for="experience">Current experience</label><select id="experience"><option>Beginner</option><option>Some fundamentals</option><option>Intermediate</option></select></div>
+          <div class="field-grid"><div class="field"><label for="pythonLevel">Python</label><select id="pythonLevel"><option>None</option><option>Basic</option><option>Comfortable</option></select></div><div class="field"><label for="sqlLevel">SQL</label><select id="sqlLevel"><option>None</option><option>Basic</option><option>Comfortable</option></select></div></div>
+          <div class="field"><label for="hours">Available time / week</label><input id="hours" type="range" min="4" max="20" step="1" value="8"><div class="range-value"><span>4h</span><strong id="hoursValue">8 hours</strong><span>20h</span></div></div>
+          <button class="btn btn-primary btn-large full" id="buildPath">Build Sample Path →</button>
+          <div class="sample-path" id="samplePath"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section story-section">
+      <div class="container">
+        <div class="story-track">
+          <div class="story-word reveal"><span>01</span><h2>LEARN</h2><p>live with an instructor.</p></div>
+          <div class="story-word reveal"><span>02</span><h2>PRACTICE</h2><p>until you can perform independently.</p></div>
+          <div class="story-word reveal"><span>03</span><h2>BUILD</h2><p>something real.</p></div>
+          <div class="story-word reveal"><span>04</span><h2>PROVE</h2><p>that you genuinely understand it.</p></div>
+          <div class="story-word reveal"><span>05</span><h2>PREPARE</h2><p>for the interviews you are likely to face.</p></div>
+          <div class="story-word reveal"><span>06</span><h2>APPLY</h2><p>with evidence, not hope alone.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section mentor-quality">
+      <div class="container">
+        <div class="section-heading centered reveal"><div class="eyebrow">MENTOR QUALITY</div><h2>Personalized education is only as good as <span>the person teaching you.</span></h2></div>
+        <div class="quality-pipeline reveal delay-1"><div>Domain Assessment</div><i>→</i><div>Teaching Demo</div><i>→</i><div>Error Diagnosis</div><i>→</i><div>Communication Review</div><i>→</i><div>Nuro Calibration</div><i>→</i><div>Ongoing QA</div></div>
+        <div class="quality-metrics"><span>Technical accuracy</span><span>Teaching clarity</span><span>Error diagnosis</span><span>Feedback quality</span><span>Reliability</span><span>Learner progression</span></div>
+      </div>
+    </section>
+
+    <section class="section is-isnt-section">
+      <div class="container is-isnt-grid">
+        <article class="reveal"><div class="eyebrow">NURO IS</div><h2>Built around capability.</h2><ul><li>Live 1:1</li><li>Personalized</li><li>Evidence driven</li><li>Project based</li><li>Human + AI</li><li>Career oriented</li><li>Transparent</li></ul></article>
+        <article class="reveal delay-1"><div class="eyebrow">NURO ISN'T</div><h2>A shortcut factory.</h2><ul><li>A prerecorded-video marketplace</li><li>A giant anonymous batch</li><li>A certificate factory</li><li>A guaranteed-placement promise</li><li>A place where AI does your work for you</li></ul></article>
+      </div>
+    </section>
+
+    <section class="section support-section">
+      <div class="container">
+        <div class="support-card reveal"><div class="section-heading"><div class="eyebrow">RE-TEACH PRINCIPLE</div><h2>We should guarantee the support <span>we can actually control.</span></h2><p>When a learner completes the agreed attendance and practice but still struggles with an essential mastery gate, Nuro's operational model should provide defined remediation and re-teaching support according to the enrolled plan.</p></div><div class="support-visual"><span>Gap detected</span><i>→</i><span>Targeted practice</span><i>→</i><span>1:1 re-teach</span><i>→</i><span>Re-assess</span></div></div>
+      </div>
+    </section>
+
+    <section class="section pricing-section" id="pricing">
+      <div class="container">
+        <div class="section-heading centered reveal"><div class="eyebrow">PROGRAM ARCHITECTURE</div><h2>Start with the pathway. <span>Price transparently once the plan is defined.</span></h2><p>Nuro's 1:1 model should price around teaching intensity, pathway depth and support—not fake discounts.</p></div>
+        <div class="pricing-grid">
+          <article class="price-card reveal"><span>STARTER</span><h3>Placement Accelerator</h3><p>Aptitude, communication, company-pattern practice and interviews.</p><ul><li>Live 1:1 sessions</li><li>Mocks + weak-area tracking</li><li>Career assets</li></ul><a href="#diagnostic">Build my plan →</a></article>
+          <article class="price-card reveal delay-1"><span>TECH FOUNDATIONS</span><h3>Python Foundations</h3><p>Python, problem solving, Git, databases, APIs and portfolio foundations.</p><ul><li>Live coding</li><li>Projects + review</li><li>Interview foundations</li></ul><a href="#diagnostic">Build my plan →</a></article>
+          <article class="price-card featured reveal delay-2"><span>CAREER PATHWAY</span><h3>Data Analytics</h3><p>Excel, SQL, Python, statistics, Power BI and business problem solving.</p><ul><li>Skill Graph</li><li>Portfolio projects</li><li>Career OS</li></ul><a href="#diagnostic">Build my plan →</a></article>
+          <article class="price-card reveal"><span>ADVANCED</span><h3>AI / ML Engineering</h3><p>ML, deep learning, GenAI, RAG, agents and deployment foundations.</p><ul><li>Advanced projects</li><li>Project defense</li><li>Technical interview prep</li></ul><a href="#diagnostic">Build my plan →</a></article>
+        </div>
+        <p class="pricing-note">Final public pricing, scholarships and policies should be published only after Nuro validates mentor cost, delivery capacity, support load and cancellation behavior.</p>
+      </div>
+    </section>
+
+    <section class="section founding-section">
+      <div class="container founding-card reveal"><div><div class="eyebrow">FOUNDING LEARNER EXPERIENCE</div><h2>Help shape a learning system <span>built around you.</span></h2><p>Early learners can help Nuro refine diagnostics, session workflows, progress signals and career evidence. Any founding pricing or benefits should be stated transparently when finalized.</p></div><a class="btn btn-primary btn-large" href="#diagnostic">Explore Founding Path →</a></div>
+    </section>
+
+    <section class="section college-section" id="colleges">
+      <div class="container split-layout">
+        <div class="section-heading reveal"><div class="eyebrow">NURO FOR COLLEGES • LATER B2B</div><h2>Personal learning, with <span>institution-level visibility.</span></h2><p>A college model can provide student diagnostics, 1:1 support, skill tracking and career-readiness insights while preserving appropriate learner privacy and permissions.</p><a class="btn btn-ghost btn-large" href="mailto:hello@nuro.example">Explore institutional model</a></div>
+        <div class="college-dashboard reveal delay-1"><div class="college-top"><span>COHORT OVERVIEW</span><strong>Prototype</strong></div><div class="college-metrics"><div><strong>74%</strong><span>Skill milestones on track</span></div><div><strong>18</strong><span>Need targeted support</span></div><div><strong>62%</strong><span>Career assets complete</span></div></div><div class="college-list"><div><span>SQL readiness</span><i><b style="width:76%"></b></i></div><div><span>Aptitude readiness</span><i><b style="width:63%"></b></i></div><div><span>Interview readiness</span><i><b style="width:58%"></b></i></div></div><small>Illustrative product UI — not live institutional data.</small></div>
+      </div>
+    </section>
+
+    <section class="section employer-vision">
+      <div class="container">
+        <div class="vision-card reveal"><div class="vision-copy"><div class="eyebrow">THE LONG-TERM VISION</div><h2>What if employers could inspect <span>verified skill evidence?</span></h2><p>A future employer experience could let learners consent to share project defenses, skill levels and portfolio evidence rather than relying only on claims.</p></div><div class="employer-search"><div class="search-row">SQL ≥ L4 <span>×</span></div><div class="search-row">Power BI ≥ L4 <span>×</span></div><div class="search-row">Project Defense = Verified <span>×</span></div><div class="candidate-result"><div class="avatar">AN</div><div><strong>Candidate profile</strong><small>Evidence-backed match</small></div><em>VIEW</em></div></div></div>
+      </div>
+    </section>
+
+    <section class="section faq-section" id="faq">
+      <div class="container faq-grid">
+        <div class="section-heading reveal"><div class="eyebrow">FAQ</div><h2>Clear answers before <span>you commit.</span></h2><p>Nuro should make delivery, mentor quality, progress tracking and career-support boundaries easy to understand.</p></div>
+        <div class="faq-list" id="faqList"></div>
+      </div>
+    </section>
+
+    <section class="section final-cta">
+      <div class="cta-glow"></div>
+      <div class="container final-cta-inner reveal">
+        <div class="eyebrow">START WITH CLARITY</div>
+        <h2>You don't need another course list.<br><span>You need to know what to learn next.</span></h2>
+        <p>Start with a diagnostic conversation and build a personalized starting Skill Map.</p>
+        <div class="hero-actions centered-actions"><a class="btn btn-primary btn-large" href="#diagnostic">Build My Skill Map →</a><a class="btn btn-ghost btn-large" href="mailto:hello@nuro.example">Talk to Nuro</a></div>
+        <div class="language-line">English <span>•</span> தமிழ் <span>•</span> తెలుగు</div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand"><a class="brand" href="#top"><span class="brand-mark">N</span><span class="brand-copy"><strong>NURO</strong><small>TECH</small></span></a><p>Human teaching. AI-era skills. Measurable progress.</p><small>Nuro Tech is a working startup name and should be legally cleared before public launch.</small></div>
+      <div><h4>Programs</h4><a href="#curriculum">Placement Accelerator</a><a href="#curriculum">Python</a><a href="#curriculum">Data Analytics</a><a href="#curriculum">AI & ML</a><a href="#programs">Future Programs</a></div>
+      <div><h4>Nuro</h4><a href="#how">How it works</a><a href="#skillgraph">Skill Graph</a><a href="#projects">Project Studio</a><a href="#passport">Skill Passport</a><a href="#career">Career OS</a></div>
+      <div><h4>Company</h4><a href="#">About</a><a href="#colleges">For Colleges</a><a href="#">For Employers</a><a href="#faq">FAQ</a><a href="mailto:hello@nuro.example">Contact</a></div>
+      <div><h4>Legal</h4><a href="#">Privacy</a><a href="#">Terms</a><a href="#">Refund Policy</a><a href="#">Placement Policy</a><a href="#">AI Use Policy</a></div>
+    </div>
+    <div class="container footer-bottom"><span>© 2026 Nuro Tech. Prototype landing experience.</span><span>No fake placement, learner or partnership claims.</span></div>
+  </footer>
+
+  <aside class="scroll-rail" id="scrollRail" aria-hidden="true">
+    <a href="#how"><span>01</span> Learn</a><a href="#projects"><span>02</span> Build</a><a href="#passport"><span>03</span> Prove</a><a href="#career"><span>04</span> Prepare</a><a href="#diagnostic"><span>05</span> Apply</a>
+  </aside>
+
+  <script src="script.js"></script>
+</body>
+</html>
